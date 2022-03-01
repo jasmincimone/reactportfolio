@@ -1,21 +1,28 @@
 import '../App.css';
+import icon from '../imgs/JasminCimone.jpg'
+import Quotelist from '../Components/QuoteList';
 // import { connect } from 'react-redux';
-import logo from '../89FC35E8-69D2-4F97-B2EE-18AE9FA4203F.png';
 
 
 function Home() {
   return (
     <div className="Home">
-
-        <img src={logo} className="App-logo" alt="logo" />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <h6>Created by Neon Daydreams Productions, LLC. </h6>
-  
+      <div>
+        <img src={icon} className="img" alt="JasminCimone" />
+      </div>
+      <div>
+        <Quotelist />
+      </div>
+      <div className='about'>
+        <p className='paragraph'>
+        Hello! My name is Jasmin Cimone Smith and I am a software engineer, graphic designer, and customer service professional <br />
+        with an entrepreneurial mindset. have a strong commitment to personal growth, lead by example, and love to find innovative <br />
+        solutions to challenges. I thrive in team environments, and execute well working individually. Combined with my strengths, <br />
+        my skills and experience allow me to show empathy towards my clients and teammates which realizes stronger, trust-based relationships. <br />
+        </p>
+      </div>
     </div>
+
   );
 }
 

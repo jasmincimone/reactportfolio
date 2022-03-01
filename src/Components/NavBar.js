@@ -2,25 +2,16 @@ import { Link } from 'react-router-dom';
 
 const NavBar= ()=>{
     return(
-        <nav style={container}>
-            <Link to ='/' id="link">Home</Link> <br /><br />
-            {/* <Link to ='/contact' id="link2">Contact</Link> */}
-            <Link to='/designportfolio' id="link3">Graphic Design</Link>
-        </nav>
+        <div>
+            <nav className='container'>
+                <Link to='/' id="link">Home</Link>
+                <Link to='/resume' id='link4'>Resume</Link> 
+                <Link to='/designportfolio' id="link3">Design Portfolio</Link>
+                <Link to='/contact' id="link2">Contact</Link>
+
+            </nav>
+        </div>
     )
 }
-
-const container = {
-    container: {
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-evenly",
-        color: 'black',
-    },
-    img: {
-        width: "400px",
-        height: "300px",
-    },
-};
 
 export default NavBar;

@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
   pointer-events: none;
 }
 
@@ -11,21 +11,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -37,8 +22,93 @@
   }
 }
 
+.App-header {
+  background-color: black;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+      display: "flex";
+      flex-direction: column;
+      justify-content: space-around;
+      color: 'black';
+      font-size: 25px;
+}      
+
+.App-link {
+  color: whitesmoke;
+}
+
+#link, #link2, #link3, #link4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+}
+
+
+
 .sliderimg {
   height: 400px;
   width: 500px;
   object-fit: scale-down;
+}
+
+.img {
+  height: 300px;
+  width: 300px;
+}
+
+.Body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content; 
+    font-family: Helvetica;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 25vw; 
+  font-family: Helvetica;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 25vw; 
+  font-family: Helvetica;
+}
+
+.GDdata {
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+}
+
+.alicecarousel {
+  display: flex; 
+  flex-direction: column;
 }
