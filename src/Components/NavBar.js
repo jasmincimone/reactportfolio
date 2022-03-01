@@ -4,8 +4,8 @@ const NavBar= ()=>{
     return(
         <nav style={container}>
             <Link to ='/' id="link">Home</Link> <br /><br />
-            <Link to ='/contact' id="contact">Contact</Link>
-            <Link to='/designportfolio' id="design">Graphic Design</Link>
+            {/* <Link to ='/contact' id="link2">Contact</Link> */}
+            <Link to='/designportfolio' id="link3">Graphic Design</Link>
         </nav>
     )
 }

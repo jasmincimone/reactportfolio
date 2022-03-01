@@ -1,15 +1,11 @@
-import './App.css';
+import '../App.css';
 // import { connect } from 'react-redux';
-import logo from './89FC35E8-69D2-4F97-B2EE-18AE9FA4203F.png';
-import NavBar from './Components/NavBar';
+import logo from '../89FC35E8-69D2-4F97-B2EE-18AE9FA4203F.png';
 
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header"> 
-      <NavBar />
-      </header>
+    <div className="Home">
 
         <img src={logo} className="App-logo" alt="logo" />
         <br />

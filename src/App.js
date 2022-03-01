@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header"> 
+      <h1>Jasmin Cimone Portfolio</h1> 
       <NavBar />
       </header>
 
@@ -26,14 +27,12 @@ function App() {
             <Home />
             </Route>
           </Switch>
-        <GDdata />
         </div>
 
         <br />
         <br />
         <br />
         <h6>Created by Neon Daydreams Productions, LLC. </h6>
-  
     </div>
   );
 }
