@@ -7,7 +7,7 @@ import image1 from '../imgs/img1.JPG';
 import image2 from '../imgs/img2.PNG';
 import image3 from '../imgs/img3.png';
 import image4 from '../imgs/img4.PNG';
-import image5 from '../imgs/img5.png';
+import image5 from '../imgs/img5.PNG';
 import image6 from '../imgs/img6.png';
 
 function GDdata() {

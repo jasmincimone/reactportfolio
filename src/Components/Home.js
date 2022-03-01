@@ -10,9 +10,15 @@ function Home() {
       <div>
         <img src={icon} className="img" alt="JasminCimone" />
       </div>
+      <br />
+      <br />
+
       <div>
         <Quotelist />
       </div>
+      <br />
+      <br />
+      
       <div className='about'>
         <p className='paragraph'>
         Hello! My name is Jasmin Cimone Smith and I am a software engineer, graphic designer, and customer service professional <br />

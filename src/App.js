@@ -39,7 +39,7 @@ function App() {
 
         <br />
         <br />
-        <h6>Created by Neon Daydreams Productions, LLC. </h6>
+        <h6> &copy;Copyright {new Date().getFullYear()} | Created with &hearts; by Neon Daydreams Productions, LLC. </h6>
     </div>
   );
 }
