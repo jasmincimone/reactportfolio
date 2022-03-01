@@ -1,5 +1,6 @@
 import logo from './89FC35E8-69D2-4F97-B2EE-18AE9FA4203F.png';
 import './App.css';
+import GDdata from './Components/GDdata';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </p>
         <br />
         <br />
+        <GDdata />
         <br />
         <br />
         <br />
