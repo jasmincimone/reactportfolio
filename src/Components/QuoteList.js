@@ -17,15 +17,14 @@ function QuoteList(props){
     return(
         <>
         <div>
-            <button onClick={handleClick}>Get Quote of the Day</button>
-        </div>
-
-        <div>
             {props.isLoading ? "Loading Quote" : ""}
             {props.error ? props.error : ""}
             {props.QuoteList ?
                 <Quote quote = {props.QuoteList} key={props.QuoteList} />
                 : "No Quotes Here =("}
+        </div>
+        <div>
+            <button onClick={handleClick}>Get Quote of the Day</button>
         </div>
         </>
     )

@@ -110,12 +110,15 @@
   object-fit: cover;
 }
 
-.alicecarousel {
+.alicecarousel ul li img{
   display: flex; 
   flex-direction: column;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .resume {
-  height: fit-content;
-  width: fit-content;
+  height: 800px;
+  width: 600px;
 }

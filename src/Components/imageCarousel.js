@@ -10,7 +10,7 @@ import image4 from '../imgs/img4.PNG';
 import image5 from '../imgs/img5.PNG';
 import image6 from '../imgs/img6.png';
 
-function GDdata() {
+function Carousel() {
     return(
         <div className="GDdata">
             <AliceCarousel 
@@ -33,4 +33,4 @@ function GDdata() {
     );
 }
 
-export default GDdata;
+export default Carousel;

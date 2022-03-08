@@ -18,7 +18,8 @@ function Home() {
       </div>
       <br />
       <br />
-      
+      <br />
+      <br />
       <div className='about'>
         <p className='paragraph'>
         Hello! My name is Jasmin Cimone Smith and I am a software engineer, graphic designer, and customer service professional <br />
@@ -27,6 +28,8 @@ function Home() {
         my skills and experience allow me to show empathy towards my clients and teammates which realizes stronger, trust-based relationships. <br />
         </p>
       </div>
+      <br />
+      <br />
     </div>
 
   );
